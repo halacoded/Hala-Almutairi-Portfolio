@@ -1,5 +1,5 @@
 import React from "react";
-
+import CV from "../../assests/CV.pdf";
 const Data = () => {
   return (
     <div className="home__data">
@@ -65,7 +65,7 @@ const Data = () => {
         <i className="uil uil-message send__icon"></i>
       </a>
 
-      <a href="#contact" className="button button--outline">
+      <a href={CV} className="button button--outline">
         Download CV
       </a>
     </div>
