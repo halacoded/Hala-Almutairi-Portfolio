@@ -25,7 +25,7 @@ const Footer = () => {
         </ul>
         <div className="footer__social">
           <a
-            href="https://wa.me/95655030024"
+            href="https://wa.link/e56l5n"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
