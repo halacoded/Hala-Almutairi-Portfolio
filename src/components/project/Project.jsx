@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "./project.css";
 import { data } from "./data";
-import List from "./List";
 import Item from "./Item";
 
 const Project = () => {
-  const [projectItems, setMenuItems] = useState(data);
+  const projectItems = data;
 
   return (
     <section className="project section" id="project">

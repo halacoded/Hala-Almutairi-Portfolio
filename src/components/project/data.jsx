@@ -50,7 +50,10 @@ export const data = [
       "Slick Carousel",
       "Tailwind CSS",
     ],
-    links: { backendRepo: "URL_to_your_live_site" },
+    links: {
+      backendRepo:
+        "https://github.com/halacoded/Olives-Herbs-Recipe-Media-Blog",
+    },
     images: {
       backendImage: OlivesHerbsImage,
       frontendImage: "url_to_your_image_of_frontend",
